@@ -1,0 +1,68 @@
+/* The message box is shown when the user clicks on the password field */
+#message {
+  color: #000;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#message p {
+  padding: 0px 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: #000;
+}
+
+.reset-form {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(90, 173, 250, 0.10);
+}
+.reset-modal {
+  height: 88.4vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.reset-modal-btn {
+  width: 100%;
+  border-radius: 80px;
+  background: #444790;
+  padding: 0.7rem 1rem;
+  font-size: 1.3rem;
+  color: #fff;
+  
+}
+.reset-modal-title {
+  width: 100%;
+  color: #1f2349;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "TT Commons Bold", sans-serif;
+  line-height: 165.523%;
+}
+.reset-modal-btn:hover {
+    border: 1px solid black;
+    background: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .reset-modal {
+        height: 93vh;
+    }
+}
+@media (max-width: 768px) {
+    .reset-modal-title {
+        font-size: 2rem;
+    }
+}

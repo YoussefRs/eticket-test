@@ -1,0 +1,62 @@
+/* fonts.css */
+
+@font-face {
+  font-family: "TT Commons Bold";
+  src: local("TT Commons Bold"), url("./TT Commons Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons DemiBold";
+  src: local("TT Commons DemiBold"),
+    url("./TT Commons DemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons ExtraBold";
+  src: local("TT Commons ExtraBold"),
+    url("./TT Commons ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons ExtraLight";
+  src: local("TT Commons ExtraLight"),
+    url("./TT Commons ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons Light";
+  src: local("TT Commons Light"),
+    url("./TT Commons Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons Medium";
+  src: local("TT Commons Medium"),
+    url("./TT Commons Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons Regular";
+  src: local("TT Commons Regular"),
+    url("./TT Commons Regular.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons Thin";
+  src: local("TT Commons Thin"), url("./TT Commons Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}

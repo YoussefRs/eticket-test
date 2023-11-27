@@ -1,0 +1,77 @@
+.stripe_pay_btn {
+  border-radius: 80px;
+  border: 1px solid #fff;
+  background-color: #64c3c5;
+  color: #fff;
+}
+.stripe_pay_btn:hover,
+.stripe_pay_btn:focus {
+  border: 1px solid #64c3c5;
+  background-color: #fff;
+  color: #64c3c5;
+}
+
+.stripe_cancel_btn {
+  border-radius: 80px;
+  border: 1px solid #64c3c5;
+  background-color: #fff;
+  color: #64c3c5;
+}
+.stripe_cancel_btn:hover,
+.stripe_cancel_btn:focus {
+  border: 1px solid #fff;
+  background-color: #64c3c5;
+  color: #fff;
+}
+
+.stripe_cancel_btn,
+.stripe_pay_btn {
+  width: 45%;
+  text-align: center !important;
+}
+
+._card_details ._input .input-group-text,
+._card_details ._input .form-control {
+  border-radius: 80px;
+  border: 1px solid #bdcaf7;
+  color: #bdcaf7;
+}
+
+._card_details ._input .input-group-text {
+  border-left: none !important;
+  background: #fff !important;
+}
+
+._card_details ._input._card_number .form-control {
+  border-right: none !important;
+  border-radius: 80px 0 0 80px;
+}
+
+._card_details ._input .form-control::placeholder {
+  color: #444790;
+  opacity: 0.4;
+}
+
+.card-detail-input .StripeElement {
+  padding: 10px;
+  border: 1px solid #bdcaf7;
+  border-radius: 80px;
+}
+
+.card_input {
+  color: #bdcaf7 !important;
+}
+
+.card_zip_input {
+  font-size: 16px !important;
+}
+
+.card_zip_input input {
+  padding: 7px;
+  font-size: 16px !important;
+}
+
+.card-detail-input .StripeElement .LinkButton {
+  display: none !important;
+}
+

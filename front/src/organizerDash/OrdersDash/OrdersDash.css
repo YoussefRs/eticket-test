@@ -1,0 +1,48 @@
+.ordersdash_container {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1200px){
+  .mySwiper {
+    width: 80vw !important;
+    margin: 0 !important;
+    height: 75vh;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .mySwiper {
+    width: 70vw !important;
+    margin: 0 !important;
+    height: 75vh;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 768px) {
+  .mySwiper {
+    width: 90vw !important;
+    margin: 0 !important;
+    height: 75vh;
+    overflow-y: scroll;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 20px !important;
+  height: 20px !important;
+  text-align: center !important;
+  line-height: 20px !important;
+  font-size: 12px !important;
+  color: #000 !important;
+  opacity: 1 !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff !important;
+  background: #007aff !important;
+}

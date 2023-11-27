@@ -1,0 +1,29 @@
+.order_modal {
+  background: rgba(68, 71, 144, 0.6) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+@media (max-width: 576px) {
+  .order_modal_details ._detail {
+    font-size: .75rem;
+  }
+}
+.order_modal_details ._detail {
+  border-bottom: 1px solid #bdcbfc;
+  padding-top: 12px;
+}
+.order_modal_details ._detail:first-of-type {
+  padding-top: 0;
+}
+.order_modal_details ._detail:last-of-type {
+  border-bottom: none;
+}
+
+.order_modal_details ._detail ._label {
+  color: #444790;
+  font-weight: 700;
+}
+
+.order_modal_details ._detail ._value {
+  color: #1f2349;
+}

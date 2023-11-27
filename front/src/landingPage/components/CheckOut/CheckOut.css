@@ -1,0 +1,450 @@
+.checkout_container {
+  margin-top: 60px;
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  /* .checkout_container {
+    margin-bottom: 11rem;
+  } */
+}
+
+@media (min-width: 1200px) {
+  .checkout_container {
+    padding: 3rem 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .checkout_container {
+    padding: 1rem 5% 2rem;
+  }
+}
+
+/* header styles */
+
+.checkout_container ._return_link span {
+  color: #1f2349 !important;
+  font-family: "TT Commons Medium", sans-serif;
+  text-decoration-line: underline;
+  text-decoration-color: #1f2349;
+  
+  margin-left: 0.5rem;
+}
+
+.checkout_container ._header ._title {
+  color: #1f2349;
+  text-align: start;
+  font-family: "TT Commons Medium", sans-serif;
+  margin-left: 1rem;
+}
+
+.checkout_container ._header ._divider {
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  margin-bottom: 1.5rem;
+}
+.checkout_event_banner {
+  object-fit: cover;
+}
+/* form styles */
+
+.checkout_container ._profile_details ._form ._input .input-group-text,
+.checkout_container ._profile_details ._form ._input .form-control,
+.checkout_container ._profile_details ._form ._input .form-select {
+  border-radius: 80px;
+  border: 1px solid #bdcaf7;
+}
+
+.checkout_container ._profile_details ._form ._input .input-group-text {
+  border-right: none !important;
+  background: #fff !important;
+}
+
+.checkout_container ._profile_details ._form ._input .form-control,
+.checkout_container ._profile_details ._form ._input .form-select {
+  border-left: none !important;
+}
+
+.checkout_container ._profile_details ._form ._user_info_btn {
+  background-color: #64c3c5;
+  border-radius: 57.759px;
+  width: 35%;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.checkout_container ._profile_details ._form ._user_info_btn:hover,
+.checkout_container ._profile_details ._form ._user_info_btn:focus {
+  background-color: #fff;
+  border: 1px solid #64c3c5;
+  color: #64c3c5;
+}
+
+.checkout_container
+  ._profile_details
+  ._form
+  ._input
+  .form-control::placeholder {
+  color: #444790;
+  opacity: 0.4;
+}
+
+.checkout_container ._checkout_button {
+  background-color: #64c3c5;
+  border-radius: 57.759px;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  position: relative;
+}
+
+._checkout_button:disabled {
+  background-color: #bdcaf7;
+  margin-bottom: 1rem;
+}
+
+._feedback {
+  color: red;
+  font-size: 0.7rem;
+  top: 4.5rem;
+  width: max-content;
+  width: 100%;
+  font-style: italic;
+  position: absolute;
+}
+
+@media (min-width: 1440px) {
+  .checkout_container ._checkout_button {
+    width: 50%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .checkout_container ._checkout_button {
+    width: 65%;
+    float: left;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .checkout_container ._checkout_button {
+    width: 65%;
+    float: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .checkout_container ._checkout_button {
+    width: 50%;
+    float: left;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .checkout_container ._checkout_button {
+    width: 65%;
+    float: left;
+  }
+}
+@media (max-width: 576px) {
+  .checkout_container ._checkout_button {
+    width: 100%;
+  }
+}
+
+.checkout_container ._checkout_button:hover,
+.checkout_container ._checkout_button:focus {
+  background-color: #fff;
+  border: 1px solid #64c3c5;
+  color: #64c3c5;
+}
+
+/* order styles */
+
+/* .checkout_container ._order_details ._event_details {} */
+@media (min-width: 992px) {
+  .checkout_container ._order_details {
+    max-height: 90vh;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 1024px) {
+  .checkout_container ._order_details ._event_details ._img img {
+    height: 100%;
+    max-height: 280px;
+    object-fit: fill;
+    border-radius: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .checkout_container ._order_details ._event_details ._img img {
+    height: 100%;
+    max-height: 200px;
+    object-fit: fill;
+    border-radius: 1rem;
+  }
+}
+
+.checkout_container ._order_details ._event_details ._details ._name {
+  color: #444790;
+  font-family: "TT Commons DemiBold", sans-serif;
+}
+
+.checkout_container ._order_details ._event_details ._details ._date,
+.checkout_container ._order_details ._event_details ._details ._time {
+  color: #1f2349;
+  font-family: "TT Commons Light", sans-serif;
+  font-size: 0.8rem;
+}
+
+.checkout_container ._order_details ._items_details ._divider {
+  background-color: #bdcaf7;
+  width: 100%;
+  height: 1px;
+  margin: 1rem 0;
+}
+
+.checkout_container ._order_details ._orders_divider {
+  background-color: #bdcaf7;
+  width: 100%;
+  height: 2px;
+  margin: 1rem 0;
+}
+
+.checkout_container ._order_details ._items_details ._item ._ticket {
+  color: #444790;
+  font-family: "TT Commons DemiBold", sans-serif;
+  text-align: start;
+  font-size: 1.2rem;
+}
+
+.checkout_container ._order_details ._items_details ._item._total ._ticket {
+  font-family: "TT Commons ExtraBold", sans-serif;
+  font-size: 1.3rem;
+}
+
+.checkout_container ._order_details ._items_details ._item ._qty {
+  color: #757896;
+  font-family: "TT Commons DemiBold", sans-serif;
+}
+
+.checkout_container ._order_details ._items_details ._item ._price {
+  color: #000;
+  font-family: "TT Commons DemiBold", sans-serif;
+  text-align: end;
+}
+
+.checkout_container ._order_details ._items_details ._item._total ._price {
+  color: #000;
+  font-family: "TT Commons ExtraBold", sans-serif;
+  text-align: end;
+}
+
+.checkout_container ._order_details ._items_details ._item._total {
+  border-radius: 60px;
+  background: rgba(189, 202, 247, 0.3);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* payment meth styles */
+
+.checkout_container ._profile_details ._paymeth_box {
+  border-radius: 14.647px;
+  border: 1.057px solid #bdcaf7;
+  background: #fff;
+  padding: 1.5rem;
+}
+.checkout_container ._profile_details ._paymeth_box_selected {
+  border-radius: 14.647px;
+  border: 1.057px solid #444790;
+  background: #fff;
+  padding: 1.5rem;
+}
+
+._radio_btn label._selected_meth {
+  color: #444790;
+  font-family: "TT Commons Bold", sans-serif;
+  font-size: 1.3rem;
+}
+
+.checkout_container ._profile_details ._paymeth_box ._radio_btn label {
+  color: #bdcaf7;
+  font-family: "TT Commons Bold", sans-serif;
+  font-size: 1.3rem;
+}
+
+.checkout_container
+  ._profile_details
+  ._paymeth_box
+  ._radio_btn
+  .form-check-input {
+  background-color: #fff !important;
+  border: 5px solid #bdcaf7 !important;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  margin-right: 0.5rem !important;
+}
+
+.form-check-input:checked {
+  background-color: #444790 !important;
+  border: 5px solid #bdcaf7 !important;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  margin-right: 0.5rem !important;
+}
+
+.pay_modal .modal-content .modal-header {
+  padding-left: 1.2rem !important;
+  padding-right: 1.2rem !important;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.pay_modal .modal-content .modal-header .modal-title {
+  color: #1f2349;
+  font-family: "TT Commons Bold", sans-serif;
+  font-size: 2rem;
+}
+.pay_modal .modal-content .modal-header .btn-close {
+  padding: 1rem !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2216%22 height=%2216%22 viewBox=%270 0 16 16%27 fill=%27%23444790%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e");
+}
+
+/* privacy policy chekbox styles */
+
+._policy_agreement {
+  display: flex;
+  align-items: flex-start;
+}
+
+._policy_agreement_check {
+  display: flex;
+}
+
+._policy_agreement_check input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: #bdcaf7;
+  border: 0.2em solid #bdcaf7;
+  border-radius: 0.2em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+._policy_agreement_check input[type="checkbox"]::before {
+  content: "";
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  background-color: #444790;
+}
+
+._policy_agreement_check input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+._policy_agreement ._label {
+  color: #444790;
+  font-family: "TT Commons Regular", sans-serif;
+  line-height: 1.2rem;
+}
+
+@media (min-width: 425px) {
+  ._policy_agreement ._label {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  ._policy_agreement_check input[type="checkbox"] {
+    width: 1.15em;
+    height: 1.15em;
+  }
+  ._policy_agreement_check input[type="checkbox"]::before {
+    width: 0.65em;
+    height: 0.65em;
+  }
+
+  ._policy_agreement_check {
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 425px) {
+  ._policy_agreement_check input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+  }
+  ._policy_agreement_check input[type="checkbox"]::before {
+    width: 0.6em;
+    height: 0.6em;
+  }
+
+  ._policy_agreement_check {
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  ._policy_agreement ._label {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  ._policy_agreement ._label {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  ._policy_agreement ._label {
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+  }
+}
+
+._policy_agreement ._label ._link {
+  color: #64c3c5;
+  text-decoration: underline;
+  font-family: "TT Commons Regular", sans-serif;
+  line-height: 1.2rem;
+}
+
+.vat_notice {
+  color: #9fafe7;
+  font-family: "TT Commons DemiBold", sans-serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.checkout_stripe_modal_title {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+._total_price_box {
+  border-radius: 60px;
+  background: rgba(189, 202, 247, 0.3);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+._total_price_box > ._ticket {
+  color: #444790;
+  font-size: 1.2rem;
+  font-family: "TT Commons ExtraBold", sans-serif;
+  font-weight: 900;
+}
+._total_price_box > ._price {
+  color: #000;
+  font-family: "TT Commons ExtraBold", sans-serif;
+  text-align: end;
+}

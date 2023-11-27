@@ -1,0 +1,129 @@
+.privacy_container {
+  margin-top: 100px;
+  flex-grow: 1;
+}
+
+@media (min-width: 1440px) {
+  .privacy_container ._inner_container {
+    padding: 2% 5%;
+    margin-bottom: 2rem;
+  }
+  .privacy_container ._inner_container ._text,
+  .privacy_container ._inner_container table {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .privacy_container ._inner_container {
+    padding: 2% 5%;
+    margin-bottom: 2rem;
+  }
+  .privacy_container ._inner_container ._text,
+  .privacy_container ._inner_container table {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .privacy_container ._inner_container {
+    padding: 2% 5%;
+  }
+  .privacy_container ._inner_container ._text,
+  .privacy_container ._inner_container table {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .privacy_container ._inner_container {
+    padding: 2% 5%;
+    margin-bottom: 2rem;
+  }
+  .privacy_container ._inner_container ._text {
+    width: 85%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .privacy_container ._inner_container {
+    padding: 2% 5%;
+    margin-bottom: 2rem;
+  }
+  .privacy_container ._inner_container ._text {
+    width: 85%;
+  }
+}
+
+/* @media (min-width: 576px) {
+  .privacy_container ._inner_container table {
+  }
+} */
+
+@media (max-width: 576px) {
+  .privacy_container ._inner_container {
+    padding: 2% 5%;
+    margin-bottom: 2rem;
+
+  }
+  .privacy_container ._inner_container table {
+    font-size: 0.6rem;
+  }
+}
+
+.privacy_container ._inner_container ._main_title {
+  color: #444790;
+  text-align: start;
+  font-size: 2.5rem;
+   font-family: 'TT Commons Bold', sans-serif;
+}
+
+.privacy_container ._inner_container ._title {
+  color: #1f2349;
+  text-align: start;
+  font-size: 1.5rem;
+   font-family: 'TT Commons Bold', sans-serif;
+}
+
+.privacy_container ._inner_container ._text {
+  text-align: start;
+  color: #757896;
+}
+.privacy_container ._inner_container ._text ._bolded {
+  font-weight: bold;
+  text-align: start;
+  color: #757896;
+}
+.privacy_container ._inner_container ._text ._underlined {
+  text-decoration: underline;
+}
+.privacy_container ._inner_container ._emphasized {
+  font-style: italic;
+}
+.privacy_container ._inner_container ._highlighted {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: start;
+  color: #757896;
+}
+
+.privacy_container ._inner_container ul {
+  padding-left: 1.1rem;
+  list-style-type: disc;
+}
+
+.privacy_container ._inner_container table tbody tr th,
+.privacy_container ._inner_container table thead tr th {
+  color: #757896 !important;
+}
+
+.privacy_container ._inner_container table tr td {
+  color: #757896 !important;
+}
+.privacy_container ._inner_container table thead tr td {
+  font-weight: bold;
+}
+
+.privacy_container ._inner_container a {
+  color: #444790 !important;
+}
